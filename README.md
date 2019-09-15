@@ -1,2 +1,4 @@
 # AIO-VCNL4010
-This is a simple demonstration of a Raspberry Pi python3 application updating Adafruit.io with light measurements from a VCNL4010 sensor
+Simple Python3 application on a Raspberry Pi which updates Adafruit.io with ambient light measurements from a VCNL4010 sensor.
+
+
