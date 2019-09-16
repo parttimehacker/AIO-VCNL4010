@@ -11,13 +11,20 @@ mkdir fonts
 ```
 - Clone this repositiory
 ```
-git clone 
+git clone https://github.com/parttimehacker/AIO-VCNL4010.git
 ```
 - Copy python source to the systemd directory and font file to the fonts directory
 ```
 cp *.py systemd
 cp *.tf fonts
 ```
+
+## Visit Adafruit.io to create an account
+
+- You will need an adafruit.io account to use this application. 
+- The Shark Tank application will require a username and the AIO key
+- The link to [Adafruit IO](https://io.adafruit.com)
+
 ## Configuring the application
 
 - Setup the application in the systemd directory and git the required files from Adafruit
@@ -41,7 +48,7 @@ sudo python3 setup.py install
 ```
 sudo python3 sharktank.py
 ```
-## Visit Adafruit.io
+## Visit Adafruit.io visualize the data
 
 - The last step is to login to your Adafruit.io account and build dashboards, etc.
 
