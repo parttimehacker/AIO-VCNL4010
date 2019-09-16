@@ -16,7 +16,7 @@ git clone https://github.com/parttimehacker/AIO-VCNL4010.git
 - Copy **python 3** source to the systemd directory and font file to the fonts directory
 ```
 cp *.py systemd
-cp *.tf fonts
+cp Tahoma.ttf fonts
 ```
 
 ## Visit Adafruit.io to create an account
