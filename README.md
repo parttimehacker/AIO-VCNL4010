@@ -13,7 +13,7 @@ mkdir fonts
 ```
 git clone https://github.com/parttimehacker/AIO-VCNL4010.git
 ```
-- Copy python source to the systemd directory and font file to the fonts directory
+- Copy **python 3** source to the systemd directory and font file to the fonts directory
 ```
 cp *.py systemd
 cp *.tf fonts
@@ -34,13 +34,21 @@ git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
 cd Adafruit_Python_GPIO
 sudo python3 setup.py install
 cd ..
+```
+```
 git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git
 cd Adafruit_Python_SSD1306
 sudo python3 setup.py install
 cd ..
+```
+```
 git clone https://github.com/adafruit/Adafruit_Python_LED_Backpack.git 
 cd Adafruit_Python_LED_Backpack
 sudo python3 setup.py install
+cd ..
+```
+```
+sudo pip3 install adafruit-io
 ```
 - Edit the sharktank.py to enter the AIO key and the AIO username
 
@@ -51,6 +59,10 @@ sudo python3 sharktank.py
 ## Visit Adafruit.io visualize the data
 
 - The last step is to login to your Adafruit.io account and build dashboards, etc.
-
 - Have fun
+
+## Extra - Setting up systemctl service
+
+- It is a good idea to run sharktank.py as a system service at boot time
+
 
