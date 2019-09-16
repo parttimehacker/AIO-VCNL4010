@@ -51,7 +51,6 @@ cd ..
 sudo pip3 install adafruit-io
 ```
 - Edit the sharktank.py to enter the AIO key and the AIO username
-
 - Run sharktank.py in python3
 ```
 sudo python3 sharktank.py
