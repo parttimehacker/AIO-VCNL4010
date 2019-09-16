@@ -45,7 +45,7 @@ class DiyOLED128x32:
         self.disp.clear()
         # Create image buffer. Make sure to create image with mode '1' for 1-bit color.
         self.image = Image.new('1', (self.disp.width, self.disp.height))
-        self.font = ImageFont.truetype("/home/nate/fonts/Tahoma.ttf",10)
+        self.font = ImageFont.truetype("../fonts/Tahoma.ttf",10)
         # Some nice fonts to try: http://www.dafont.com/bitmap.php
         self.draw = ImageDraw.Draw( self.image )
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
