@@ -48,11 +48,11 @@ VCNL4010.calibrate()
 # Set to your Adafruit IO key.
 # Remember, your key is a secret,
 # so make sure not to publish it when you publish this code!
-ADAFRUIT_IO_KEY = '1b95aaec576446d39c57fd7808a8ab39'
+ADAFRUIT_IO_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 # Set to your Adafruit IO username.
 # (go to https://accounts.adafruit.com to find your username)
-ADAFRUIT_IO_USERNAME = 'NateWhiteSEA'
+ADAFRUIT_IO_USERNAME = 'USERNAME'
 
 # Create an instance of the REST client.
 AIO = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
