@@ -64,5 +64,14 @@ sudo python3 sharktank.py
 ## Extra - Setting up systemctl service
 
 - It is a good idea to run sharktank.py as a system service at boot time
+- Edit the sharktank.service file and enter your user directory 
+- Enter the following commands to install the service
+```
+sudo cp sharktank.service /lib/systemd/system/sharktank.service
+sudo chmod 644 /lib/systemd/system/sharktank.service
+sudo systemctl daemon-reload
+sudo systemctl enable sharktank.service
+```
+- Reboot is recommended
 
 
